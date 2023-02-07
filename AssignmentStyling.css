@@ -1,0 +1,56 @@
+body {
+    background-color:rgb(251, 241, 189);
+}
+
+h1 {
+    color:rgb(99, 7, 122);
+    border-style: double;
+    border: 5px;
+    border-color: black;
+    border-radius: 20%;
+}
+
+img {
+    border: 10px;
+    border-color: black;
+  /* //  text-align: center;
+} */
+}
+p {
+    color: black;
+    font-weight: 200;
+    font-style: italic;
+}
+
+div {
+    color: blueviolet;
+}
+
+p::first-line {
+    font-weight: 700;
+    color: brown;
+}
+
+.parent-div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+img {
+    height: 550px;
+    width: auto;
+}
+
+/* .parent-div {
+    height: 50px;
+    width:auto;
+    overflow: hidden;
+}
+
+.parent-div img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+} */
