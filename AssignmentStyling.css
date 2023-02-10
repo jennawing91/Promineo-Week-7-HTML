@@ -150,7 +150,8 @@ tr:nth-child(even) {
     background: rgb(220, 190, 20);
 }
 
-a {
+a {    
+    //this does not seem to be working with the second page as it continues to print up high and over the image
     position: relative;
     bottom: 10;
     padding-bottom: 10px;
